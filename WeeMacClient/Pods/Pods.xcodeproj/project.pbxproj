@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F5A941053514AC8F8CC52E /* GBDeviceInfoInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B09B8F7B290F7BF6D846ED /* GBDeviceInfoInterface.h */; };
+		1B382089710DE9346B7A164B /* GBDeviceInfo_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 56132A60DC77D6620DCF4D62 /* GBDeviceInfo_Common.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		343D3B1F4484B2C7906409FF /* GBDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD8425D6E6EBEBFF812FD20 /* GBDeviceInfo.h */; };
+		36D32B1A636737AE9E087983 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD7BECD20BE8CFE2DC8F5AB /* Cocoa.framework */; };
+		49AAED87218D363A1F4D17A1 /* GBDeviceInfoTypes_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A646802965412877A171BC /* GBDeviceInfoTypes_OSX.h */; };
+		49FD5BE6A65654755CCBF7A1 /* Pods-WeeMacClient-GBDeviceInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68D54F7479728919EB4BA17 /* Pods-WeeMacClient-GBDeviceInfo-dummy.m */; };
+		5435256DA660581A4E0C287D /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FF2E20ED4F3623D8ED17B1 /* CoreServices.framework */; };
+		6C94FF22F8822069AEF8E97D /* GBDeviceInfo_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DB80266EA17E901914D441 /* GBDeviceInfo_OSX.h */; };
+		7540618501857F38C3906DF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD7BECD20BE8CFE2DC8F5AB /* Cocoa.framework */; };
+		7CBA5C79E9E430D9522407A0 /* GBDeviceInfoTypes_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D44D0DEF546D04B0BDA901 /* GBDeviceInfoTypes_Common.h */; };
+		A5C482F02FD52A921319A844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F76F9E0589576E129FD311 /* Foundation.framework */; };
+		B75A314E37D2C7D200BAC472 /* GBDeviceInfo_OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE818273C76CDBE12CB96B6 /* GBDeviceInfo_OSX.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF1A6C5FBC9F9B86DFBD109C /* GBDeviceInfo_Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BFC6C3A43AA55FB40F4C03 /* GBDeviceInfo_Subclass.h */; };
+		C738B8A9CCDDAABD988A0039 /* Pods-WeeMacClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C198E1698067CB3061532 /* Pods-WeeMacClient-dummy.m */; };
+		CE673E352EA4973F61167419 /* GBDeviceInfo_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 271E880297AC23F16BCBCB07 /* GBDeviceInfo_Common.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38F8D28D1578F120925C8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D04DF97AB202651547524A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D939285B5EAAEC67EB5405B;
+			remoteInfo = "Pods-WeeMacClient-GBDeviceInfo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039085BAF46F5409BF25F237 /* libPods-WeeMacClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeeMacClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BB177B9357472AE0A0B936 /* Pods-WeeMacClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeeMacClient.release.xcconfig"; sourceTree = "<group>"; };
+		0DD8425D6E6EBEBFF812FD20 /* GBDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo.h; path = GBDeviceInfo/GBDeviceInfo.h; sourceTree = "<group>"; };
+		0E771991A69923AEE7C22DB7 /* Pods-WeeMacClient-GBDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeeMacClient-GBDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
+		13E5A21E048DB7328571C97D /* Pods-WeeMacClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeeMacClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		271E880297AC23F16BCBCB07 /* GBDeviceInfo_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Common.h; path = GBDeviceInfo/GBDeviceInfo_Common.h; sourceTree = "<group>"; };
+		309407434B0689C5161BC379 /* libPods-WeeMacClient-GBDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeeMacClient-GBDeviceInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DB80266EA17E901914D441 /* GBDeviceInfo_OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_OSX.h; path = GBDeviceInfo/GBDeviceInfo_OSX.h; sourceTree = "<group>"; };
+		50BC0C5755554EDEDF37E1C6 /* Pods-WeeMacClient-GBDeviceInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeeMacClient-GBDeviceInfo.xcconfig"; sourceTree = "<group>"; };
+		56132A60DC77D6620DCF4D62 /* GBDeviceInfo_Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_Common.m; path = GBDeviceInfo/GBDeviceInfo_Common.m; sourceTree = "<group>"; };
+		56F73DE679B38B084AFF051F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EE5262EFCFF7CCDEB6B952C /* Pods-WeeMacClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeeMacClient.debug.xcconfig"; sourceTree = "<group>"; };
+		60B09B8F7B290F7BF6D846ED /* GBDeviceInfoInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoInterface.h; path = GBDeviceInfo/GBDeviceInfoInterface.h; sourceTree = "<group>"; };
+		6DE818273C76CDBE12CB96B6 /* GBDeviceInfo_OSX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_OSX.m; path = GBDeviceInfo/GBDeviceInfo_OSX.m; sourceTree = "<group>"; };
+		6FD7BECD20BE8CFE2DC8F5AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		718C198E1698067CB3061532 /* Pods-WeeMacClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeeMacClient-dummy.m"; sourceTree = "<group>"; };
+		A1A646802965412877A171BC /* GBDeviceInfoTypes_OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_OSX.h; path = GBDeviceInfo/GBDeviceInfoTypes_OSX.h; sourceTree = "<group>"; };
+		B2D44D0DEF546D04B0BDA901 /* GBDeviceInfoTypes_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_Common.h; path = GBDeviceInfo/GBDeviceInfoTypes_Common.h; sourceTree = "<group>"; };
+		B57CCD9034FF3947C109168C /* Pods-WeeMacClient-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeeMacClient-environment.h"; sourceTree = "<group>"; };
+		B9FF2E20ED4F3623D8ED17B1 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		C4F76F9E0589576E129FD311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C8BFC6C3A43AA55FB40F4C03 /* GBDeviceInfo_Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Subclass.h; path = GBDeviceInfo/GBDeviceInfo_Subclass.h; sourceTree = "<group>"; };
+		CC060BB553E812888755B1D7 /* Pods-WeeMacClient-GBDeviceInfo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeeMacClient-GBDeviceInfo-Private.xcconfig"; sourceTree = "<group>"; };
+		D68D54F7479728919EB4BA17 /* Pods-WeeMacClient-GBDeviceInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeeMacClient-GBDeviceInfo-dummy.m"; sourceTree = "<group>"; };
+		E44916004CB2C2F3201DD9E4 /* Pods-WeeMacClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeeMacClient-resources.sh"; sourceTree = "<group>"; };
+		E58ADD6AC41CF592859AAAD8 /* Pods-WeeMacClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeeMacClient-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0B5A5E16BC28BC08273ED27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7540618501857F38C3906DF7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE26DF26DB563F38EAAA82AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D32B1A636737AE9E087983 /* Cocoa.framework in Frameworks */,
+				5435256DA660581A4E0C287D /* CoreServices.framework in Frameworks */,
+				A5C482F02FD52A921319A844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083F9AD770D93A8C42A6A8EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				039085BAF46F5409BF25F237 /* libPods-WeeMacClient.a */,
+				309407434B0689C5161BC379 /* libPods-WeeMacClient-GBDeviceInfo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12BB9E88C3046337A0244ADF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE7B58C74616E0B7068B682 /* Pods-WeeMacClient */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		139E28E1E93E5FDE10BA523F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE9175E56CDA9056115802F8 /* GBDeviceInfo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CE7B58C74616E0B7068B682 /* Pods-WeeMacClient */ = {
+			isa = PBXGroup;
+			children = (
+				E58ADD6AC41CF592859AAAD8 /* Pods-WeeMacClient-acknowledgements.markdown */,
+				13E5A21E048DB7328571C97D /* Pods-WeeMacClient-acknowledgements.plist */,
+				718C198E1698067CB3061532 /* Pods-WeeMacClient-dummy.m */,
+				B57CCD9034FF3947C109168C /* Pods-WeeMacClient-environment.h */,
+				E44916004CB2C2F3201DD9E4 /* Pods-WeeMacClient-resources.sh */,
+				5EE5262EFCFF7CCDEB6B952C /* Pods-WeeMacClient.debug.xcconfig */,
+				07BB177B9357472AE0A0B936 /* Pods-WeeMacClient.release.xcconfig */,
+			);
+			name = "Pods-WeeMacClient";
+			path = "Target Support Files/Pods-WeeMacClient";
+			sourceTree = "<group>";
+		};
+		63D32A18EF442DA52767FFB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB26874910C4BB07D6C1908D /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE9175E56CDA9056115802F8 /* GBDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0DD8425D6E6EBEBFF812FD20 /* GBDeviceInfo.h */,
+				60B09B8F7B290F7BF6D846ED /* GBDeviceInfoInterface.h */,
+				B2D44D0DEF546D04B0BDA901 /* GBDeviceInfoTypes_Common.h */,
+				A1A646802965412877A171BC /* GBDeviceInfoTypes_OSX.h */,
+				271E880297AC23F16BCBCB07 /* GBDeviceInfo_Common.h */,
+				56132A60DC77D6620DCF4D62 /* GBDeviceInfo_Common.m */,
+				33DB80266EA17E901914D441 /* GBDeviceInfo_OSX.h */,
+				6DE818273C76CDBE12CB96B6 /* GBDeviceInfo_OSX.m */,
+				C8BFC6C3A43AA55FB40F4C03 /* GBDeviceInfo_Subclass.h */,
+				D8CA8FF3FCC2B311732E3FC4 /* Support Files */,
+			);
+			path = GBDeviceInfo;
+			sourceTree = "<group>";
+		};
+		C2518E095D7A8F4DAD1E0488 = {
+			isa = PBXGroup;
+			children = (
+				56F73DE679B38B084AFF051F /* Podfile */,
+				63D32A18EF442DA52767FFB9 /* Frameworks */,
+				139E28E1E93E5FDE10BA523F /* Pods */,
+				083F9AD770D93A8C42A6A8EF /* Products */,
+				12BB9E88C3046337A0244ADF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CB26874910C4BB07D6C1908D /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				6FD7BECD20BE8CFE2DC8F5AB /* Cocoa.framework */,
+				B9FF2E20ED4F3623D8ED17B1 /* CoreServices.framework */,
+				C4F76F9E0589576E129FD311 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		D8CA8FF3FCC2B311732E3FC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50BC0C5755554EDEDF37E1C6 /* Pods-WeeMacClient-GBDeviceInfo.xcconfig */,
+				CC060BB553E812888755B1D7 /* Pods-WeeMacClient-GBDeviceInfo-Private.xcconfig */,
+				D68D54F7479728919EB4BA17 /* Pods-WeeMacClient-GBDeviceInfo-dummy.m */,
+				0E771991A69923AEE7C22DB7 /* Pods-WeeMacClient-GBDeviceInfo-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WeeMacClient-GBDeviceInfo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4C63B12105895AB84E4BF63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343D3B1F4484B2C7906409FF /* GBDeviceInfo.h in Headers */,
+				17F5A941053514AC8F8CC52E /* GBDeviceInfoInterface.h in Headers */,
+				7CBA5C79E9E430D9522407A0 /* GBDeviceInfoTypes_Common.h in Headers */,
+				49AAED87218D363A1F4D17A1 /* GBDeviceInfoTypes_OSX.h in Headers */,
+				CE673E352EA4973F61167419 /* GBDeviceInfo_Common.h in Headers */,
+				6C94FF22F8822069AEF8E97D /* GBDeviceInfo_OSX.h in Headers */,
+				BF1A6C5FBC9F9B86DFBD109C /* GBDeviceInfo_Subclass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D939285B5EAAEC67EB5405B /* Pods-WeeMacClient-GBDeviceInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9258F1D5AE13C0B3DA7F39C9 /* Build configuration list for PBXNativeTarget "Pods-WeeMacClient-GBDeviceInfo" */;
+			buildPhases = (
+				06F7CC2AFA1B0D1A2483E743 /* Sources */,
+				EE26DF26DB563F38EAAA82AE /* Frameworks */,
+				B4C63B12105895AB84E4BF63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WeeMacClient-GBDeviceInfo";
+			productName = "Pods-WeeMacClient-GBDeviceInfo";
+			productReference = 309407434B0689C5161BC379 /* libPods-WeeMacClient-GBDeviceInfo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF935B03B931426E2EC63D84 /* Pods-WeeMacClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E673F686C0C7EF7343A1FA01 /* Build configuration list for PBXNativeTarget "Pods-WeeMacClient" */;
+			buildPhases = (
+				5020F93348F1F6DBA6600E5B /* Sources */,
+				B0B5A5E16BC28BC08273ED27 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E9505A8EAA9EDB9282B6B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeeMacClient";
+			productName = "Pods-WeeMacClient";
+			productReference = 039085BAF46F5409BF25F237 /* libPods-WeeMacClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D04DF97AB202651547524A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C40C075DA637FC0303BCE95B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2518E095D7A8F4DAD1E0488;
+			productRefGroup = 083F9AD770D93A8C42A6A8EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF935B03B931426E2EC63D84 /* Pods-WeeMacClient */,
+				0D939285B5EAAEC67EB5405B /* Pods-WeeMacClient-GBDeviceInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F7CC2AFA1B0D1A2483E743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B382089710DE9346B7A164B /* GBDeviceInfo_Common.m in Sources */,
+				B75A314E37D2C7D200BAC472 /* GBDeviceInfo_OSX.m in Sources */,
+				49FD5BE6A65654755CCBF7A1 /* Pods-WeeMacClient-GBDeviceInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5020F93348F1F6DBA6600E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C738B8A9CCDDAABD988A0039 /* Pods-WeeMacClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42E9505A8EAA9EDB9282B6B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeeMacClient-GBDeviceInfo";
+			target = 0D939285B5EAAEC67EB5405B /* Pods-WeeMacClient-GBDeviceInfo */;
+			targetProxy = C38F8D28D1578F120925C8C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		062280128C59B93C995CA4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB461A61C2BFF54306471EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BB177B9357472AE0A0B936 /* Pods-WeeMacClient.release.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5724F786927FE847663CB79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE5262EFCFF7CCDEB6B952C /* Pods-WeeMacClient.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8639DEC7552A85DD994F15F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9326306DF93A79EAD75D1193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC060BB553E812888755B1D7 /* Pods-WeeMacClient-GBDeviceInfo-Private.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WeeMacClient-GBDeviceInfo/Pods-WeeMacClient-GBDeviceInfo-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1B05FBD432F72E19B472B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC060BB553E812888755B1D7 /* Pods-WeeMacClient-GBDeviceInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WeeMacClient-GBDeviceInfo/Pods-WeeMacClient-GBDeviceInfo-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9258F1D5AE13C0B3DA7F39C9 /* Build configuration list for PBXNativeTarget "Pods-WeeMacClient-GBDeviceInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B05FBD432F72E19B472B55 /* Debug */,
+				9326306DF93A79EAD75D1193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40C075DA637FC0303BCE95B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8639DEC7552A85DD994F15F1 /* Debug */,
+				062280128C59B93C995CA4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E673F686C0C7EF7343A1FA01 /* Build configuration list for PBXNativeTarget "Pods-WeeMacClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5724F786927FE847663CB79F /* Debug */,
+				3BB461A61C2BFF54306471EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16D04DF97AB202651547524A /* Project object */;
+}

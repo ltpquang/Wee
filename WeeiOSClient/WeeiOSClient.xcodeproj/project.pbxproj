@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DA96E49ACB9939CE25AB9B9 /* libPods-WeeiOSClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D997CBD02729048B2A71E6FA /* libPods-WeeiOSClient.a */; };
+		6F31FE2B1B109661005283B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FE2A1B109661005283B8 /* main.m */; };
+		6F31FE2E1B109661005283B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FE2D1B109661005283B8 /* AppDelegate.m */; };
+		6F31FE341B109661005283B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F31FE321B109661005283B8 /* Main.storyboard */; };
+		6F31FE361B109661005283B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F31FE351B109661005283B8 /* Images.xcassets */; };
+		6F31FE391B109661005283B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F31FE371B109661005283B8 /* LaunchScreen.xib */; };
+		6F31FE451B109661005283B8 /* WeeiOSClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FE441B109661005283B8 /* WeeiOSClientTests.m */; };
+		6F7FCB191B14BBC900B1EB58 /* PQWallpaperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FCB181B14BBC900B1EB58 /* PQWallpaperTableViewCell.m */; };
+		6F7FCB1C1B14BBF600B1EB58 /* PQWallpaperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FCB1B1B14BBF600B1EB58 /* PQWallpaperTableViewController.m */; };
+		6F7FCB1F1B14C28800B1EB58 /* PQProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FCB1E1B14C28800B1EB58 /* PQProfileTableViewController.m */; };
+		6F7FCB221B14C2AD00B1EB58 /* PQOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FCB211B14C2AD00B1EB58 /* PQOptionsTableViewController.m */; };
+		6F7FCB251B14C2E900B1EB58 /* PQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7FCB241B14C2E900B1EB58 /* PQLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F31FE3F1B109661005283B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F31FE1D1B109661005283B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F31FE241B109661005283B8;
+			remoteInfo = WeeiOSClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D297A1B44239165B530B2DA /* Pods-WeeiOSClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeeiOSClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeeiOSClient/Pods-WeeiOSClient.release.xcconfig"; sourceTree = "<group>"; };
+		6F31FE251B109661005283B8 /* WeeiOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeeiOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F31FE291B109661005283B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F31FE2A1B109661005283B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F31FE2C1B109661005283B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F31FE2D1B109661005283B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F31FE331B109661005283B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F31FE351B109661005283B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F31FE381B109661005283B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F31FE3E1B109661005283B8 /* WeeiOSClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeeiOSClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F31FE431B109661005283B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F31FE441B109661005283B8 /* WeeiOSClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeeiOSClientTests.m; sourceTree = "<group>"; };
+		6F7FCB171B14BBC900B1EB58 /* PQWallpaperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQWallpaperTableViewCell.h; path = Controllers/Cells/PQWallpaperTableViewCell.h; sourceTree = "<group>"; };
+		6F7FCB181B14BBC900B1EB58 /* PQWallpaperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQWallpaperTableViewCell.m; path = Controllers/Cells/PQWallpaperTableViewCell.m; sourceTree = "<group>"; };
+		6F7FCB1A1B14BBF600B1EB58 /* PQWallpaperTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQWallpaperTableViewController.h; path = Controllers/PQWallpaperTableViewController.h; sourceTree = "<group>"; };
+		6F7FCB1B1B14BBF600B1EB58 /* PQWallpaperTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQWallpaperTableViewController.m; path = Controllers/PQWallpaperTableViewController.m; sourceTree = "<group>"; };
+		6F7FCB1D1B14C28800B1EB58 /* PQProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQProfileTableViewController.h; path = Controllers/PQProfileTableViewController.h; sourceTree = "<group>"; };
+		6F7FCB1E1B14C28800B1EB58 /* PQProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQProfileTableViewController.m; path = Controllers/PQProfileTableViewController.m; sourceTree = "<group>"; };
+		6F7FCB201B14C2AD00B1EB58 /* PQOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQOptionsTableViewController.h; path = Controllers/PQOptionsTableViewController.h; sourceTree = "<group>"; };
+		6F7FCB211B14C2AD00B1EB58 /* PQOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQOptionsTableViewController.m; path = Controllers/PQOptionsTableViewController.m; sourceTree = "<group>"; };
+		6F7FCB231B14C2E900B1EB58 /* PQLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQLoginViewController.h; path = Controllers/PQLoginViewController.h; sourceTree = "<group>"; };
+		6F7FCB241B14C2E900B1EB58 /* PQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQLoginViewController.m; path = Controllers/PQLoginViewController.m; sourceTree = "<group>"; };
+		D54AE9AA2F37EF1F6F509AE8 /* Pods-WeeiOSClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeeiOSClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeeiOSClient/Pods-WeeiOSClient.debug.xcconfig"; sourceTree = "<group>"; };
+		D997CBD02729048B2A71E6FA /* libPods-WeeiOSClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeeiOSClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F31FE221B109661005283B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA96E49ACB9939CE25AB9B9 /* libPods-WeeiOSClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31FE3B1B109661005283B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		317DB69EE0A984DA071F77A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D54AE9AA2F37EF1F6F509AE8 /* Pods-WeeiOSClient.debug.xcconfig */,
+				0D297A1B44239165B530B2DA /* Pods-WeeiOSClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		319285EDD054A4A94E0C46CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D997CBD02729048B2A71E6FA /* libPods-WeeiOSClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F31FE1C1B109661005283B8 = {
+			isa = PBXGroup;
+			children = (
+				6F31FE271B109661005283B8 /* WeeiOSClient */,
+				6F31FE411B109661005283B8 /* WeeiOSClientTests */,
+				6F31FE261B109661005283B8 /* Products */,
+				317DB69EE0A984DA071F77A1 /* Pods */,
+				319285EDD054A4A94E0C46CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F31FE261B109661005283B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FE251B109661005283B8 /* WeeiOSClient.app */,
+				6F31FE3E1B109661005283B8 /* WeeiOSClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F31FE271B109661005283B8 /* WeeiOSClient */ = {
+			isa = PBXGroup;
+			children = (
+				6F7FCB121B14B3F500B1EB58 /* Controllers */,
+				6F31FE2C1B109661005283B8 /* AppDelegate.h */,
+				6F31FE2D1B109661005283B8 /* AppDelegate.m */,
+				6F31FE321B109661005283B8 /* Main.storyboard */,
+				6F31FE351B109661005283B8 /* Images.xcassets */,
+				6F31FE371B109661005283B8 /* LaunchScreen.xib */,
+				6F31FE281B109661005283B8 /* Supporting Files */,
+			);
+			path = WeeiOSClient;
+			sourceTree = "<group>";
+		};
+		6F31FE281B109661005283B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FE291B109661005283B8 /* Info.plist */,
+				6F31FE2A1B109661005283B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F31FE411B109661005283B8 /* WeeiOSClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FE441B109661005283B8 /* WeeiOSClientTests.m */,
+				6F31FE421B109661005283B8 /* Supporting Files */,
+			);
+			path = WeeiOSClientTests;
+			sourceTree = "<group>";
+		};
+		6F31FE421B109661005283B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FE431B109661005283B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7FCB121B14B3F500B1EB58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F7FCB161B14BB9900B1EB58 /* Cells */,
+				6F7FCB231B14C2E900B1EB58 /* PQLoginViewController.h */,
+				6F7FCB241B14C2E900B1EB58 /* PQLoginViewController.m */,
+				6F7FCB1A1B14BBF600B1EB58 /* PQWallpaperTableViewController.h */,
+				6F7FCB1B1B14BBF600B1EB58 /* PQWallpaperTableViewController.m */,
+				6F7FCB1D1B14C28800B1EB58 /* PQProfileTableViewController.h */,
+				6F7FCB1E1B14C28800B1EB58 /* PQProfileTableViewController.m */,
+				6F7FCB201B14C2AD00B1EB58 /* PQOptionsTableViewController.h */,
+				6F7FCB211B14C2AD00B1EB58 /* PQOptionsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6F7FCB161B14BB9900B1EB58 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6F7FCB171B14BBC900B1EB58 /* PQWallpaperTableViewCell.h */,
+				6F7FCB181B14BBC900B1EB58 /* PQWallpaperTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F31FE241B109661005283B8 /* WeeiOSClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F31FE481B109661005283B8 /* Build configuration list for PBXNativeTarget "WeeiOSClient" */;
+			buildPhases = (
+				EACAF09E9AA47AE08E7ADF5A /* Check Pods Manifest.lock */,
+				6F31FE211B109661005283B8 /* Sources */,
+				6F31FE221B109661005283B8 /* Frameworks */,
+				6F31FE231B109661005283B8 /* Resources */,
+				0397367E660018ED92CCD992 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeeiOSClient;
+			productName = WeeiOSClient;
+			productReference = 6F31FE251B109661005283B8 /* WeeiOSClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F31FE3D1B109661005283B8 /* WeeiOSClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F31FE4B1B109661005283B8 /* Build configuration list for PBXNativeTarget "WeeiOSClientTests" */;
+			buildPhases = (
+				6F31FE3A1B109661005283B8 /* Sources */,
+				6F31FE3B1B109661005283B8 /* Frameworks */,
+				6F31FE3C1B109661005283B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F31FE401B109661005283B8 /* PBXTargetDependency */,
+			);
+			name = WeeiOSClientTests;
+			productName = WeeiOSClientTests;
+			productReference = 6F31FE3E1B109661005283B8 /* WeeiOSClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F31FE1D1B109661005283B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = QuangLTP;
+				TargetAttributes = {
+					6F31FE241B109661005283B8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4632F27GCZ;
+					};
+					6F31FE3D1B109661005283B8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4632F27GCZ;
+						TestTargetID = 6F31FE241B109661005283B8;
+					};
+				};
+			};
+			buildConfigurationList = 6F31FE201B109661005283B8 /* Build configuration list for PBXProject "WeeiOSClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F31FE1C1B109661005283B8;
+			productRefGroup = 6F31FE261B109661005283B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F31FE241B109661005283B8 /* WeeiOSClient */,
+				6F31FE3D1B109661005283B8 /* WeeiOSClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F31FE231B109661005283B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31FE341B109661005283B8 /* Main.storyboard in Resources */,
+				6F31FE391B109661005283B8 /* LaunchScreen.xib in Resources */,
+				6F31FE361B109661005283B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31FE3C1B109661005283B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0397367E660018ED92CCD992 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeeiOSClient/Pods-WeeiOSClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACAF09E9AA47AE08E7ADF5A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F31FE211B109661005283B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31FE2E1B109661005283B8 /* AppDelegate.m in Sources */,
+				6F7FCB221B14C2AD00B1EB58 /* PQOptionsTableViewController.m in Sources */,
+				6F7FCB251B14C2E900B1EB58 /* PQLoginViewController.m in Sources */,
+				6F7FCB191B14BBC900B1EB58 /* PQWallpaperTableViewCell.m in Sources */,
+				6F7FCB1F1B14C28800B1EB58 /* PQProfileTableViewController.m in Sources */,
+				6F7FCB1C1B14BBF600B1EB58 /* PQWallpaperTableViewController.m in Sources */,
+				6F31FE2B1B109661005283B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31FE3A1B109661005283B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31FE451B109661005283B8 /* WeeiOSClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F31FE401B109661005283B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F31FE241B109661005283B8 /* WeeiOSClient */;
+			targetProxy = 6F31FE3F1B109661005283B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F31FE321B109661005283B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F31FE331B109661005283B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F31FE371B109661005283B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F31FE381B109661005283B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F31FE461B109661005283B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.quangltp.WeeiOSClient";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.quangltp.WeeiOSClient";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F31FE471B109661005283B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.quangltp.WeeiOSClient";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.quangltp.WeeiOSClient";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F31FE491B109661005283B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54AE9AA2F37EF1F6F509AE8 /* Pods-WeeiOSClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WeeiOSClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6F31FE4A1B109661005283B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D297A1B44239165B530B2DA /* Pods-WeeiOSClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WeeiOSClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6F31FE4C1B109661005283B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeeiOSClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeeiOSClient.app/WeeiOSClient";
+			};
+			name = Debug;
+		};
+		6F31FE4D1B109661005283B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeeiOSClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeeiOSClient.app/WeeiOSClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F31FE201B109661005283B8 /* Build configuration list for PBXProject "WeeiOSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F31FE461B109661005283B8 /* Debug */,
+				6F31FE471B109661005283B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F31FE481B109661005283B8 /* Build configuration list for PBXNativeTarget "WeeiOSClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F31FE491B109661005283B8 /* Debug */,
+				6F31FE4A1B109661005283B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F31FE4B1B109661005283B8 /* Build configuration list for PBXNativeTarget "WeeiOSClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F31FE4C1B109661005283B8 /* Debug */,
+				6F31FE4D1B109661005283B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F31FE1D1B109661005283B8 /* Project object */;
+}

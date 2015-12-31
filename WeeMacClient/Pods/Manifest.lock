@@ -1,0 +1,11 @@
+PODS:
+  - GBDeviceInfo (3.2.0):
+    - GBJailbreakDetection (~> 1.0)
+
+DEPENDENCIES:
+  - GBDeviceInfo
+
+SPEC CHECKSUMS:
+  GBDeviceInfo: 5c7630b984135a2cdc3e6822b9eee39bc67a3d3e
+
+COCOAPODS: 0.37.0

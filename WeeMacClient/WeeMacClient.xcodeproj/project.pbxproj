@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F20F96A1B136A4400CCB19A /* NSImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F20F9691B136A4400CCB19A /* NSImage+Resize.m */; };
+		6F31FDDF1B109039005283B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FDDE1B109039005283B8 /* AppDelegate.m */; };
+		6F31FDE11B109039005283B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FDE01B109039005283B8 /* main.m */; };
+		6F31FDE61B109039005283B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F31FDE51B109039005283B8 /* Images.xcassets */; };
+		6F31FDE91B109039005283B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F31FDE71B109039005283B8 /* Main.storyboard */; };
+		6F31FDF51B109039005283B8 /* WeeMacClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FDF41B109039005283B8 /* WeeMacClientTests.m */; };
+		6F31FE011B109063005283B8 /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31FE001B109063005283B8 /* FileWatcher.m */; };
+		6F31FE041B109294005283B8 /* ParseOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE031B109294005283B8 /* ParseOSX.framework */; };
+		6F31FE081B1092DD005283B8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE071B1092DD005283B8 /* CFNetwork.framework */; };
+		6F31FE0A1B1092F0005283B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE091B1092F0005283B8 /* CoreGraphics.framework */; };
+		6F31FE0C1B1092F6005283B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE0B1B1092F6005283B8 /* CoreLocation.framework */; };
+		6F31FE0E1B1092FD005283B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE0D1B1092FD005283B8 /* QuartzCore.framework */; };
+		6F31FE101B109304005283B8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE0F1B109304005283B8 /* Security.framework */; };
+		6F31FE121B10930C005283B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE111B10930C005283B8 /* SystemConfiguration.framework */; };
+		6F31FE141B10931C005283B8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE131B10931C005283B8 /* libsqlite3.dylib */; };
+		6F31FE161B109322005283B8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE151B109322005283B8 /* libz.dylib */; };
+		6F31FE191B10936A005283B8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31FE181B10936A005283B8 /* Bolts.framework */; };
+		6F31FE1A1B109385005283B8 /* ParseOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F31FE031B109294005283B8 /* ParseOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F31FE1B1B10938A005283B8 /* Bolts.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F31FE181B10936A005283B8 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F8A87ED1B12A41000B63E9B /* MACAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A87EC1B12A41000B63E9B /* MACAddress.m */; };
+		6FC0DC831B10B398004F3ED2 /* PQSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0DC821B10B398004F3ED2 /* PQSignInViewController.m */; };
+		6FE490021B16B4CD00C080C5 /* PQComputerNameCrafter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE490011B16B4CD00C080C5 /* PQComputerNameCrafter.m */; };
+		8E6501FE70F98A4E8053E8DF /* libPods-WeeMacClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD6622906AEEDC25CD63C15 /* libPods-WeeMacClient.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F31FDEF1B109039005283B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F31FDD01B109039005283B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F31FDD71B109039005283B8;
+			remoteInfo = WeeMacClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F31FE171B109333005283B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6F31FE1B1B10938A005283B8 /* Bolts.framework in CopyFiles */,
+				6F31FE1A1B109385005283B8 /* ParseOSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F20F9681B136A4400CCB19A /* NSImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Resize.h"; sourceTree = "<group>"; };
+		6F20F9691B136A4400CCB19A /* NSImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Resize.m"; sourceTree = "<group>"; };
+		6F31FDD81B109039005283B8 /* WeeMacClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeeMacClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F31FDDC1B109039005283B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F31FDDD1B109039005283B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F31FDDE1B109039005283B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F31FDE01B109039005283B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F31FDE51B109039005283B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F31FDE81B109039005283B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F31FDEE1B109039005283B8 /* WeeMacClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeeMacClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F31FDF31B109039005283B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F31FDF41B109039005283B8 /* WeeMacClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeeMacClientTests.m; sourceTree = "<group>"; };
+		6F31FDFF1B109063005283B8 /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
+		6F31FE001B109063005283B8 /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
+		6F31FE031B109294005283B8 /* ParseOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseOSX.framework; sourceTree = "<group>"; };
+		6F31FE051B1092D0005283B8 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		6F31FE071B1092DD005283B8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6F31FE091B1092F0005283B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F31FE0B1B1092F6005283B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6F31FE0D1B1092FD005283B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F31FE0F1B109304005283B8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6F31FE111B10930C005283B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F31FE131B10931C005283B8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6F31FE151B109322005283B8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6F31FE181B10936A005283B8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6F8A87EB1B12A41000B63E9B /* MACAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACAddress.h; sourceTree = "<group>"; };
+		6F8A87EC1B12A41000B63E9B /* MACAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACAddress.m; sourceTree = "<group>"; };
+		6FC0DC811B10B398004F3ED2 /* PQSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQSignInViewController.h; path = Controllers/PQSignInViewController.h; sourceTree = "<group>"; };
+		6FC0DC821B10B398004F3ED2 /* PQSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQSignInViewController.m; path = Controllers/PQSignInViewController.m; sourceTree = "<group>"; };
+		6FE490001B16B4CD00C080C5 /* PQComputerNameCrafter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQComputerNameCrafter.h; sourceTree = "<group>"; };
+		6FE490011B16B4CD00C080C5 /* PQComputerNameCrafter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQComputerNameCrafter.m; sourceTree = "<group>"; };
+		71005FE1B0D0574AA8643C3C /* Pods-WeeMacClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeeMacClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeeMacClient/Pods-WeeMacClient.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD6622906AEEDC25CD63C15 /* libPods-WeeMacClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeeMacClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64392C53D249EBF305F26F5 /* Pods-WeeMacClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeeMacClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeeMacClient/Pods-WeeMacClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F31FDD51B109039005283B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31FE161B109322005283B8 /* libz.dylib in Frameworks */,
+				6F31FE141B10931C005283B8 /* libsqlite3.dylib in Frameworks */,
+				6F31FE121B10930C005283B8 /* SystemConfiguration.framework in Frameworks */,
+				6F31FE101B109304005283B8 /* Security.framework in Frameworks */,
+				6F31FE0E1B1092FD005283B8 /* QuartzCore.framework in Frameworks */,
+				6F31FE191B10936A005283B8 /* Bolts.framework in Frameworks */,
+				6F31FE0C1B1092F6005283B8 /* CoreLocation.framework in Frameworks */,
+				6F31FE0A1B1092F0005283B8 /* CoreGraphics.framework in Frameworks */,
+				6F31FE081B1092DD005283B8 /* CFNetwork.framework in Frameworks */,
+				6F31FE041B109294005283B8 /* ParseOSX.framework in Frameworks */,
+				8E6501FE70F98A4E8053E8DF /* libPods-WeeMacClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31FDEB1B109039005283B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F20F9641B1368F400CCB19A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F20F9681B136A4400CCB19A /* NSImage+Resize.h */,
+				6F20F9691B136A4400CCB19A /* NSImage+Resize.m */,
+				6FE490001B16B4CD00C080C5 /* PQComputerNameCrafter.h */,
+				6FE490011B16B4CD00C080C5 /* PQComputerNameCrafter.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6F31FDCF1B109039005283B8 = {
+			isa = PBXGroup;
+			children = (
+				6F31FDDA1B109039005283B8 /* WeeMacClient */,
+				6F31FDF11B109039005283B8 /* WeeMacClientTests */,
+				6F31FE021B109282005283B8 /* Frameworks */,
+				6F31FDD91B109039005283B8 /* Products */,
+				77273A0D687AE616CF9BCC6E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6F31FDD91B109039005283B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FDD81B109039005283B8 /* WeeMacClient.app */,
+				6F31FDEE1B109039005283B8 /* WeeMacClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F31FDDA1B109039005283B8 /* WeeMacClient */ = {
+			isa = PBXGroup;
+			children = (
+				6F20F9641B1368F400CCB19A /* Helpers */,
+				6FC0DC801B10B313004F3ED2 /* Controllers */,
+				6F31FDFE1B109045005283B8 /* FileWatcher */,
+				6F8A87EA1B12A3F500B63E9B /* MACAddress */,
+				6F31FDDD1B109039005283B8 /* AppDelegate.h */,
+				6F31FDDE1B109039005283B8 /* AppDelegate.m */,
+				6F31FDE51B109039005283B8 /* Images.xcassets */,
+				6F31FDE71B109039005283B8 /* Main.storyboard */,
+				6F31FDDB1B109039005283B8 /* Supporting Files */,
+			);
+			path = WeeMacClient;
+			sourceTree = "<group>";
+		};
+		6F31FDDB1B109039005283B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FDDC1B109039005283B8 /* Info.plist */,
+				6F31FDE01B109039005283B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F31FDF11B109039005283B8 /* WeeMacClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FDF41B109039005283B8 /* WeeMacClientTests.m */,
+				6F31FDF21B109039005283B8 /* Supporting Files */,
+			);
+			path = WeeMacClientTests;
+			sourceTree = "<group>";
+		};
+		6F31FDF21B109039005283B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FDF31B109039005283B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F31FDFE1B109045005283B8 /* FileWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FDFF1B109063005283B8 /* FileWatcher.h */,
+				6F31FE001B109063005283B8 /* FileWatcher.m */,
+			);
+			name = FileWatcher;
+			sourceTree = "<group>";
+		};
+		6F31FE021B109282005283B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F31FE151B109322005283B8 /* libz.dylib */,
+				6F31FE131B10931C005283B8 /* libsqlite3.dylib */,
+				6F31FE181B10936A005283B8 /* Bolts.framework */,
+				6F31FE111B10930C005283B8 /* SystemConfiguration.framework */,
+				6F31FE0F1B109304005283B8 /* Security.framework */,
+				6F31FE0D1B1092FD005283B8 /* QuartzCore.framework */,
+				6F31FE0B1B1092F6005283B8 /* CoreLocation.framework */,
+				6F31FE091B1092F0005283B8 /* CoreGraphics.framework */,
+				6F31FE071B1092DD005283B8 /* CFNetwork.framework */,
+				6F31FE051B1092D0005283B8 /* ApplicationServices.framework */,
+				6F31FE031B109294005283B8 /* ParseOSX.framework */,
+				7CD6622906AEEDC25CD63C15 /* libPods-WeeMacClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F8A87EA1B12A3F500B63E9B /* MACAddress */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A87EB1B12A41000B63E9B /* MACAddress.h */,
+				6F8A87EC1B12A41000B63E9B /* MACAddress.m */,
+			);
+			name = MACAddress;
+			sourceTree = "<group>";
+		};
+		6FC0DC801B10B313004F3ED2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FC0DC811B10B398004F3ED2 /* PQSignInViewController.h */,
+				6FC0DC821B10B398004F3ED2 /* PQSignInViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		77273A0D687AE616CF9BCC6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71005FE1B0D0574AA8643C3C /* Pods-WeeMacClient.debug.xcconfig */,
+				B64392C53D249EBF305F26F5 /* Pods-WeeMacClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F31FDD71B109039005283B8 /* WeeMacClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F31FDF81B109039005283B8 /* Build configuration list for PBXNativeTarget "WeeMacClient" */;
+			buildPhases = (
+				782B30779EA1FF1559F43C8D /* Check Pods Manifest.lock */,
+				6F31FDD41B109039005283B8 /* Sources */,
+				6F31FDD51B109039005283B8 /* Frameworks */,
+				6F31FDD61B109039005283B8 /* Resources */,
+				6F31FE171B109333005283B8 /* CopyFiles */,
+				A8BF28492CF15C7A2C126E0D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeeMacClient;
+			productName = WeeMacClient;
+			productReference = 6F31FDD81B109039005283B8 /* WeeMacClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F31FDED1B109039005283B8 /* WeeMacClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F31FDFB1B109039005283B8 /* Build configuration list for PBXNativeTarget "WeeMacClientTests" */;
+			buildPhases = (
+				6F31FDEA1B109039005283B8 /* Sources */,
+				6F31FDEB1B109039005283B8 /* Frameworks */,
+				6F31FDEC1B109039005283B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F31FDF01B109039005283B8 /* PBXTargetDependency */,
+			);
+			name = WeeMacClientTests;
+			productName = WeeMacClientTests;
+			productReference = 6F31FDEE1B109039005283B8 /* WeeMacClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F31FDD01B109039005283B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = QuangLTP;
+				TargetAttributes = {
+					6F31FDD71B109039005283B8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					6F31FDED1B109039005283B8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 6F31FDD71B109039005283B8;
+					};
+				};
+			};
+			buildConfigurationList = 6F31FDD31B109039005283B8 /* Build configuration list for PBXProject "WeeMacClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F31FDCF1B109039005283B8;
+			productRefGroup = 6F31FDD91B109039005283B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F31FDD71B109039005283B8 /* WeeMacClient */,
+				6F31FDED1B109039005283B8 /* WeeMacClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F31FDD61B109039005283B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31FDE61B109039005283B8 /* Images.xcassets in Resources */,
+				6F31FDE91B109039005283B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31FDEC1B109039005283B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		782B30779EA1FF1559F43C8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BF28492CF15C7A2C126E0D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeeMacClient/Pods-WeeMacClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F31FDD41B109039005283B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A87ED1B12A41000B63E9B /* MACAddress.m in Sources */,
+				6F31FDE11B109039005283B8 /* main.m in Sources */,
+				6FE490021B16B4CD00C080C5 /* PQComputerNameCrafter.m in Sources */,
+				6F31FE011B109063005283B8 /* FileWatcher.m in Sources */,
+				6F31FDDF1B109039005283B8 /* AppDelegate.m in Sources */,
+				6F20F96A1B136A4400CCB19A /* NSImage+Resize.m in Sources */,
+				6FC0DC831B10B398004F3ED2 /* PQSignInViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31FDEA1B109039005283B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F31FDF51B109039005283B8 /* WeeMacClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F31FDF01B109039005283B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F31FDD71B109039005283B8 /* WeeMacClient */;
+			targetProxy = 6F31FDEF1B109039005283B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F31FDE71B109039005283B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F31FDE81B109039005283B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F31FDF61B109039005283B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F31FDF71B109039005283B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F31FDF91B109039005283B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71005FE1B0D0574AA8643C3C /* Pods-WeeMacClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WeeMacClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F31FDFA1B109039005283B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64392C53D249EBF305F26F5 /* Pods-WeeMacClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WeeMacClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F31FDFC1B109039005283B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeeMacClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeeMacClient.app/Contents/MacOS/WeeMacClient";
+			};
+			name = Debug;
+		};
+		6F31FDFD1B109039005283B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeeMacClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeeMacClient.app/Contents/MacOS/WeeMacClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F31FDD31B109039005283B8 /* Build configuration list for PBXProject "WeeMacClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F31FDF61B109039005283B8 /* Debug */,
+				6F31FDF71B109039005283B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F31FDF81B109039005283B8 /* Build configuration list for PBXNativeTarget "WeeMacClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F31FDF91B109039005283B8 /* Debug */,
+				6F31FDFA1B109039005283B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F31FDFB1B109039005283B8 /* Build configuration list for PBXNativeTarget "WeeMacClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F31FDFC1B109039005283B8 /* Debug */,
+				6F31FDFD1B109039005283B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F31FDD01B109039005283B8 /* Project object */;
+}

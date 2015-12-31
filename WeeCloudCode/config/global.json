@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Wee": {
+      "applicationId": "bwGMcwXKS9NHuzt2nES4SjzNthcWrOcjKynalHHI",
+      "masterKey": "I9O3Bf0xQDezF40csHoeJC8i1YKqCeTw1BEJyarm"
+    },
+    "_default": {
+      "link": "Wee"
+    }
+  }
+}
